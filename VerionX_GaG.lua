@@ -24,12 +24,7 @@ Window:EditOpenButton({
     Draggable = true,
 })
 
-local TabSection1 = Window:Section({
-Title = "TabSection1",
-Icon = "monitor",
-})
-
-local MainTab = TabSection:Tab({
+local MainTab = Window:Tab({
 Title = "Main",
 Icon = "app-window",
 })
