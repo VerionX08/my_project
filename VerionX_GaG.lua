@@ -6,7 +6,8 @@ local Window = WindUI:CreateWindow({
    Size = UDim2.fromOffset(580, 460),
    Resizable = true,
 Transparent = true,
-BackgroundImageTransparency = 0.42,
+BackgroundImageTransparency = 0.8,
+Background = "rbxassetid://97239349377509",
   
 })
 
