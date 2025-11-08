@@ -62,7 +62,7 @@ local Toggle = MainTab:Toggle({
     Icon = "snowflake",
     Value = false, -- default value
     Callback = function(state) 
-        _G.seed = false
+        _G.seed = state
 
 while _G.seed do
 local prompt1 = workspace.WeatherVisuals.Pillars.Pillar_1.Offering.ProximityPrompt
