@@ -70,14 +70,14 @@ task.spawn(function()
     end
 end)
 
-local MainTab = Window:Tab({
-Title = "Main",
-Icon = "app-window",
+local GaG_Tab = Window:Tab({
+Title = "GaG Tab",
+Icon = "tree-palm",
 })
 
 _G.sword = false
 
-MainTab:Toggle({
+GaG_Tab:Toggle({
     Title = "Auto Giant Sword",
     Icon = "sword",
 Desc = "Auto Admin Weather",
@@ -97,7 +97,7 @@ task.wait(0.01)
     end,
 })
 _G.seed = false
-local Toggle = MainTab:Toggle({
+local Toggle = GaG_Tab:Toggle({
     Title = "Dupe Frostspike",
     Desc = "idk why I created this",
     Icon = "snowflake",
@@ -124,3 +124,8 @@ fireproximityprompt(prompt5)
     end
 end,
 })
+local SaB_Tab = Window:Tab({
+        Title = "SaB Tab",
+        Icon = "rabbit",
+    })
+        
